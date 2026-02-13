@@ -1,0 +1,236 @@
+/* Arquivo de toda as estilizações utilizadas nas pages */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f6f8;
+    font-family: "Inter", Arial, sans-serif;
+    color: #1f2933;
+}
+
+.relatorio-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 16px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin: 32px 0 16px;
+    color: #374151;
+}
+
+.relatorio-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+    .relatorio-header label {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+
+select {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+    select:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px auto;
+    font-size: 14px;
+}
+
+thead th {
+    background-color: #f3f4f6;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+td:last-child {
+    font-weight: 600;
+}
+
+.total-geral {
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+    .total-geral p {
+        margin: 8px 0;
+        font-weight: 600;
+        font-size: 15px;
+        color: #111827;
+    }
+
+.form-pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+    .campo label {
+        margin-bottom: 4px;
+    }
+
+    .campo input {
+        padding: 8px 10px;
+        border-radius: 6px;
+        border: 1px solid #d1d5db;
+        font-size: 14px;
+    }
+
+.btn-salvar {
+    margin-top: 8px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+    .btn-salvar:hover {
+        background-color: #1e40af;
+    }
+
+.btn-secundario {
+    margin-top: 8px;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #6b7280; /* cinza */
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+    .btn-secundario:hover {
+        background-color: #4b5563;
+    }
+
+.btn-acao {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-editar {
+    background-color: #2563eb; /* azul */
+}
+
+    .btn-editar:hover {
+        background-color: #1d4ed8;
+    }
+
+.btn-excluir {
+    background-color: #dc2626; /* vermelho */
+}
+
+    .btn-excluir:hover {
+        background-color: #b91c1c;
+    }
+
+.acoes-botoes {
+    display: flex;
+    gap: 8px;
+}
+
+.col-acoes {
+    text-align: center;
+}
+
+.acoes-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+.conteudo {
+    padding: 20px;
+}
+
+
+.erro {
+    color: #dc2626;
+    font-size: 14px;
+}
+
