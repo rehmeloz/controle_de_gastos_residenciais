@@ -1,10 +1,10 @@
-// Definindo os tipos de transação
+// Definindo os tipos de transaÃ§Ã£o
 export enum TipoTransacao {
     Despesa = 1,
     Receita = 2
 }
 
-// Interface de transação
+// Interface de transaÃ§Ã£o
 export interface Transacao {
     id: number;
     descricao: string;

@@ -12,7 +12,4 @@
     <None Remove="src\NovaPasta\**" />
     <TypeScriptConfiguration Remove="src\NovaPasta\**" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="src\utils\" />
-  </ItemGroup>
 </Project>

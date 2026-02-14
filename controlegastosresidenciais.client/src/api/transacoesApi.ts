@@ -1,7 +1,7 @@
 import { api } from "./http";
 import { Transacao, TipoTransacao } from "../models/Transacao";
 
-// Definindo os endpoints de transações (listar e criar)
+// Definindo os endpoints de transaÃ§Ãµes (listar e criar)
 export async function listarTransacoes(): Promise<Transacao[]> {
     const response = await api.get("/transacoes");
     return response.data;
