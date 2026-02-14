@@ -5,7 +5,7 @@ import { Layout } from "./pages/componentes/Layout";
 import { Categorias } from "./pages/Categorias/Categorias";
 import { Transacoes } from "./pages/Transacoes/Transacoes";
 
-// Definindo rotas de navegação
+// Definindo rotas de navegaÃ§Ã£o
 function App() {
     return (
         <BrowserRouter>
