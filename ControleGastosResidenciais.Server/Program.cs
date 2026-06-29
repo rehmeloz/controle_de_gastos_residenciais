@@ -1,6 +1,7 @@
 using ControleGastosResidenciais.Server.Data;
 using ControleGastosResidenciais.Server.Data.Repositories;
 using ControleGastosResidenciais.Server.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,21 +21,20 @@ builder.Services.AddCors(options =>
         });
 });
 
-// Builder categorias
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();
 
-// Builder Pessoas
 builder.Services.AddScoped<IPessoasRepository, PessoaRepository>();
 builder.Services.AddScoped<IPessoasService, PessoasService>();
 
-// Builder Transacoes
 builder.Services.AddScoped<ITransacoesRepository, TransacaoRepository>();
 builder.Services.AddScoped<ITransacoesService, TransacaoService>();
 
-// Builder Relatorios
 builder.Services.AddScoped<IRelatorioRepository, RelatorioRepository>();
 builder.Services.AddScoped<IRelatorioService, RelatorioService>();
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
