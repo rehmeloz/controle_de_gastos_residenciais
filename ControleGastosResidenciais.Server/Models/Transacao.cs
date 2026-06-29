@@ -11,5 +11,7 @@ public class Transacao
     public TipoTransacao Tipo { get; set; }
 
     public int IdPessoa { get; set; }
+    public Pessoa Pessoa { get; set; }
     public int IdCategoria { get; set; }
+    public Categoria Categoria { get; set; }
 }
