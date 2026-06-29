@@ -1,6 +1,6 @@
 # 📋 Gestor de Gastos Residenciais
 
-Um sistema de controle de gastos residenciais com operações **CRUD** e visualização de relatórios a partir de filtros, desenvolvido com uma arquitetura moderna separando frontend e backend.
+Sistema de controle de gastos residenciais com operações **CRUD** e visualização de relatórios a partir de filtros, desenvolvido com uma arquitetura moderna separando frontend e backend.
 
 ## 🚀 Tecnologias Utilizadas
 
