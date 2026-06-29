@@ -11,6 +11,8 @@ Um sistema de controle de gastos residenciais com operações **CRUD** e visuali
 
 ### Backend
 - **C#** — Linguagem principal da API
+- **.NET** — Ecossistema utilizado na API
+- **ASP.NET Core** — Framework utilizado na API
 
 ## ✨ Funcionalidades
 
