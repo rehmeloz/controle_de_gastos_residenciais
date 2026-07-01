@@ -13,6 +13,7 @@ Sistema de controle de gastos residenciais com operações **CRUD** e visualiza�
 - **C#** — Linguagem principal da API
 - **.NET** — Ecossistema utilizado na API
 - **ASP.NET Core** — Framework utilizado na API
+- **Dapper** — ORM utilzado para manipulaçãoo de dados da API
 
 ## ✨ Funcionalidades
 
