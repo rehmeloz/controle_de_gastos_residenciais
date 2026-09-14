@@ -8,10 +8,15 @@ export async function listarPessoas(): Promise<Pessoa[]> {
 }
 
 export async function criarPessoa(pessoa: Omit<Pessoa, "id">) {
+
+    console.log("chamou CriarPessoa");
+
     const response = await api.post("/pessoas", {
         nome: pessoa.nome,
         idade: pessoa.idade
     });
+
+    console.log(response);
 
     return response.data;
 }

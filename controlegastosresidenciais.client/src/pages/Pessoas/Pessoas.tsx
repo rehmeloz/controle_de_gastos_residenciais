@@ -72,10 +72,10 @@ export function Pessoas() {
                 idade: idadeNumero
             });
         } else {
-            await criarPessoa({
+            console.log(await criarPessoa({
                 nome: nomeLimpo,
                 idade: idadeNumero
-            });
+            }))
         }
 
         setNome("");
@@ -104,7 +104,7 @@ export function Pessoas() {
             <div className="form-pessoa">
 
                 <div className="campo">
-                    <label><strong>Nome</strong></label>
+                    <label><strong>Nome </strong></label>
                     <input
                         type="text"
                         maxLength={200}
