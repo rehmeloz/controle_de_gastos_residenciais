@@ -1,8 +1,8 @@
-# 📋 Gestor de Gastos Residenciais
+# Gestor de Gastos Residenciais
 
 Sistema de controle de gastos residenciais com operações **CRUD** e visualização de relatórios a partir de filtros, desenvolvido com uma arquitetura moderna separando frontend e backend.
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 - **React** — Biblioteca para construção da interface de usuário
@@ -15,13 +15,13 @@ Sistema de controle de gastos residenciais com operações **CRUD** e visualiza�
 - **ASP.NET Core** — Framework utilizado na API
 - **Dapper** — ORM utilzado para manipulaçãoo de dados da API
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Visualização de relatórios** a partir de um filtro, onde o relatório pode ser por categoria ou por pessoa, possuindo também uma exibição do total geral (Receitas, Despesas e Saldo)
 - **Criar** cadastros de pessoas e cadastro de categorias a partir de uma finalidade (Despesa, Receita ou Ambas)
 - **Realizar Transações** descrevendo a transação, selecionando uma pessoa previamente cadastrada (Pessoas menores de 18 anos só podem realizar transações do tipo Despesa), atribuindo o valor da transação, tipo (Despesa ou Receita) e uma categoria previamente cadastrada
 
-## 📸 Screenshots
+## Screenshots
 
 ![Cadastro de Categorias](./images/cadastro_categorias.png)
 
