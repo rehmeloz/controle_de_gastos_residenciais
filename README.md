@@ -23,18 +23,10 @@ Sistema de controle de gastos residenciais com operações **CRUD** e visualiza�
 
 ## 📸 Screenshots
 
-<div align="center">
+![Cadastro de Categorias](./ControleGastosResidenciais.client/images/cadastro_categorias.png)
 
-<h3>Cadastro de Categorias</h3>
-<img src="./images/cadastro_categorias.png" alt="Cadastro de Categorias" width="500">
+![Cadastro de Pessoas](./ControleGastosResidenciais.client/images/cadastro_pessoas.png)
 
-<h3>Cadastro de Pessoas</h3>
-<img src="./images/cadastro_pessoas.png" alt="Cadastro de Pessoas" width="500">
+![Realizar Transações](./ControleGastosResidenciais.client/images/realizar_transações.png)
 
-<h3>Realizar Transações</h3>
-<img src="./images/realizar_transações.png" alt="Realizar Transações" width="500">
-
-<h3>Relatórios</h3>
-<img src="./images/relatórios.png" alt="Relatórios" width="500">
-
-</div>
+![Relatórios](./ControleGastosResidenciais.client/images/relatórios.png)
