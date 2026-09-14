@@ -1,16 +1,32 @@
-# React + Vite
+# 📋 Gestor de Gastos Residenciais
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de controle de gastos residenciais com operações **CRUD** e visualização de relatórios a partir de filtros, desenvolvido com uma arquitetura moderna separando frontend e backend.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend
+- **React** — Biblioteca para construção da interface de usuário
+- **TypeScript (TS)** — Linguagem principal do frontend
+- **JavaScript (JS)** — Linguagem secundária do frontend
 
-## React Compiler
+### Backend
+- **C#** — Linguagem principal da API
+- **.NET** — Ecossistema utilizado na API
+- **ASP.NET Core** — Framework utilizado na API
+- **Dapper** — ORM utilzado para manipulaçãoo de dados da API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- **Visualização de relatórios** a partir de um filtro, onde o relatório pode ser por categoria ou por pessoa, possuindo também uma exibição do total geral (Receitas, Despesas e Saldo)
+- **Criar** cadastros de pessoas e cadastro de categorias a partir de uma finalidade (Despesa, Receita ou Ambas)
+- **Realizar Transações** descrevendo a transação, selecionando uma pessoa previamente cadastrada (Pessoas menores de 18 anos só podem realizar transações do tipo Despesa), atribuindo o valor da transação, tipo (Despesa ou Receita) e uma categoria previamente cadastrada
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+![Cadastro de Categorias](./images/cadastro_categorias.png)
+
+![Cadastro de Pessoas](./images/cadastro_pessoas.png)
+
+![Realizar Transações](./images/realizar_transações.png)
+
+![Relatórios](./images/relatórios.png)
