@@ -20,3 +20,17 @@ Sistema de controle de gastos residenciais com operações **CRUD** e visualiza�
 - **Visualização de relatórios** a partir de um filtro, onde o relatório pode ser por categoria ou por pessoa, possuindo também uma exibição do total geral (Receitas, Despesas e Saldo)
 - **Criar** cadastros de pessoas e cadastro de categorias a partir de uma finalidade (Despesa, Receita ou Ambas)
 - **Realizar Transações** descrevendo a transação, selecionando uma pessoa previamente cadastrada (Pessoas menores de 18 anos só podem realizar transações do tipo Despesa), atribuindo o valor da transação, tipo (Despesa ou Receita) e uma categoria previamente cadastrada
+
+## 📸 Screenshots
+
+### Cadastro de Categorias
+![Cadastro de Categorias](./images/cadastro_categorias.png)
+
+### Cadastro de Pessoas
+![Cadastro de Pessoas](./images/cadastro_pessoas.png)
+
+### Realizar Transações
+![Realizar Transações](./images/realizar_transações.png)
+
+### Relatórios
+![Relatórios](./images/relatórios.png)
